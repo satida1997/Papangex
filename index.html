@@ -138,6 +138,7 @@ h1 {
 <script>
 // ========== รวมต้นฉบับ + สลับคำถาม/คำตอบ + สุ่มลำดับ ==========
 const baseQuizData = [
+  // --- Original Questions ---
   { question: "How are you?", answer: "I’m fine, thank you. and you?" },
   { question: "What is your name?", answer: "My name is Pariyagon Wongyat" },
   { question: "Nice to meet you.", answer: "Nice to meet you too" },
@@ -163,7 +164,14 @@ const baseQuizData = [
   { question: "What is the first thing you do when you get home?", answer: "I eat a snack" },
   { question: "When do you do your homework?", answer: "After my snack" },
   { question: "What do you do after finishing your homework?", answer: "I take care of my younger brother and listen to music" },
-  { question: "How do you feel when you help your family in the evening?", answer: "I feel happy" }
+  { question: "How do you feel when you help your family in the evening?", answer: "I feel happy" },
+  
+  // --- NEW Questions from Dialogue ---
+  { question: "What are your hobbies?", answer: "My favorite hobby is drawing." },
+  { question: "What do you do in your free time?", answer: "I play Roblox." },
+  { question: "What is your favorite map in Roblox?", answer: "My favorite map is Hunty Zombie." },
+  { question: "What do you do in Hunty Zombie?", answer: "I explore hidden rooms, collect rare items, and survive zombie attacks with my friends." },
+  { question: "How do you connect drawing with Roblox?", answer: "I draw new characters, zombies, or scenes from Hunty Zombie." }
 ];
 
 // ✅ สร้างชุดสลับคำถาม/คำตอบ
@@ -260,3 +268,4 @@ loadQuestion();
 </script>
 </body>
 </html>
+
